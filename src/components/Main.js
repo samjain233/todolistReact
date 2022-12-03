@@ -32,7 +32,7 @@ const Main = () => {
   return (
     <>
       <div className="flex justify-center items-center flex-col">
-        <div className="w-1/2 mt-8">
+        <div className="sm:w-2/3 lg:w-1/2 w-11/12 mt-8">
           <div className="bg-blue-300 rounded shadow-lg mb-6">
             <input
               type="text"
