@@ -10,7 +10,7 @@ const Navbar = () => {
   const [quote, setQuote] = useState(null);
 
   useEffect(() => {
-    axios.get("http://api.quotable.io/random").then((response) => {
+    axios.get("https://api.quotable.io/random").then((response) => {
       setQuote(response.data.content);
     });
   }, []);
